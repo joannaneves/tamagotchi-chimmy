@@ -1,0 +1,223 @@
+body{
+  overflow: hidden;
+}
+
+.pet{
+  width: 300px;
+  height: 200px;
+ padding-left: 108px;
+}
+
+.bloco{
+  padding-top: 200px;
+  width: 200px;
+
+}
+
+.botao{
+  padding: 7%;
+  color:rgba(51, 50, 50, 0.89);
+  cursor: pointer;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.header{
+  position: absolute;
+}
+
+.botao:hover{
+  color: rgb(43, 105, 175);
+}
+
+.botao:active{
+  color: BLUE;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.barra{
+  width: 100px;
+  background: rgb(141, 194, 255);
+  margin: 5px 10px;
+  border-radius:4px;
+  padding: 4px 4px;
+}
+.barras{
+  float:right;
+}
+
+.lado{
+  padding-left:303px;
+  }
+
+#blocoBotao{
+  float: top;
+  padding: 35px 0px;
+}
+
+#blocoImagem{
+  padding-top: 30px;
+  padding-bottom: 90px;
+  position: center;
+  margin-left: 450px;  
+  margin-right: 450px;
+  left:200px;
+  top: 300px;
+  transform:translatex(15px) translatey(119px);
+}
+#blocoImagem2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: center;
+  margin-left: 250px;  
+  margin-right:250px;
+  left:200px;
+  top: 100px;
+}
+
+#mensagem{
+  color: rgb(255, 0, 0);
+}
+
+
+/*
+
+Classes do html gameover
+
+*/
+
+.mainGameover {
+  text-align: center;
+  margin-top: 10%;
+  background-color: black
+  }
+  
+  
+  #gameover{
+  font-size: 500%;  
+  color: rgb(255, 0, 0);
+  }
+  
+  #restart{
+  font-size: 500%; 
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  animation: pulsate 2s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 1; 
+  }
+  
+  #restart:hover{
+    animation: pulsate 0s ease-out
+  }
+
+  /* Botao */
+div .botao:nth-child(5){
+  display:inline-block;
+  transform:translatex(556px) translatey(-102px);
+ }
+ 
+ /* Division */
+ body > div:nth-child(2){
+  margin-right:355px !important;
+  height:95px;
+  transform:translatex(-50px) translatey(129px);
+ }
+  
+/* Image */
+.header > img:nth-child(1){
+  display:inline-block;
+  transform:translatex(192px) translatey(-64px);
+ }
+ 
+ /* Bloco imagem */
+ #blocoImagem{
+  display:inline-block;
+  transform:translatex(20px) translatey(-99px);
+  padding-bottom:4px;
+  min-height:257px;
+ }
+ 
+ /* Division */
+ .header div:nth-child(3){
+  margin-right:338px !important;
+  transform:translatex(77px) translatey(-88px);
+ }
+ 
+ /* Header */
+ .header{
+  transform:translatex(20px) translatey(-99px);
+ }
+ 
+ /* Image */
+.header img{
+  transform:translatex(177px) translatey(22px) !important;
+ }
+ 
+ /* Bloco imagem */
+ #blocoImagem{
+  transform:translatex(54px) translatey(-13px);
+ }
+ 
+ /* Pet */
+ #pet{
+  padding-left:8px;
+  display:inline-block;
+  transform:translatex(4px) translatey(8px) !important;
+ }
+ 
+ /* Division */
+ .header div:nth-child(3){
+  margin-left:246px !important;
+  transform:translatex(103px) translatey(-10px);
+ }
+ 
+ /* Botao */
+ .header div .botao:nth-child(5){
+  position:relative;
+  left:8px;
+  top:-5px;
+ }
+ 
+ /* Font Icon */
+.header .botao .fa-comments{
+  position:relative;
+  top:-1px;
+  left:6px;
+ }
+ 
+ /* Barras */
+ #blocoImagem .barras{
+  transform:translatex(310px) translatey(-282px);
+ }
+ 
+ /* Pet */
+ #pet{
+  position:relative;
+  left:56px;
+  top:13px;
+ }
+ 
+ /* Span Tag */
+.header div span{
+  left:22px !important;
+  right:auto !important;
+  top:-7px !important;
+  bottom:auto !important;
+ }
+ 
+ 
+
+  @-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+  }
+  
